@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "21b61157-36bf-4345-b72d-3c3478505000",
+		"name": "Arq",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Survey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/surveys/2918c22c-f9fa-4154-bd72-b6fb299442cf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"surveys",
+						"2918c22c-f9fa-4154-bd72-b6fb299442cf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllCodes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/surveys/codes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"surveys",
+						"codes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send survey response",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"code\": \"2918c22c-f9fa-4154-bd72-b6fb299442cf\",\n\t\"surveyMatches\": [\n\t\t{\n\t\t\t\"subject\": {\n\t\t\t\t\"id\": 3,\n\t\t\t\t\"creationDate\": \"18/06/2018 04:33\",\n\t\t\t\t\"name\": \"Elementos de programación y lógica\"\n\t\t\t},\n\t\t\t\"option\": {\n\t\t\t\t\"id\": null,\n\t\t\t\t\"creationDate\": \"18/06/2018 04:34\",\n\t\t\t\t\"description\": \"Comision 1\"\n\t\t\t}\n\t\t}\n\t]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/surveys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"surveys"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
