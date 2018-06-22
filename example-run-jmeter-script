@@ -1,0 +1,1 @@
+./bin/jmeter -n -t arq_soft.jmx -l result.csv
