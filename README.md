@@ -30,4 +30,8 @@ Post PRE CONFIGURACION
 Apretando play
 
 ##### NON-GUI (desde la carpeta de jmeter
-jmeter -n -t /path/to/your/arq_soft.jmx -l /path/to/results/file.jtl
+sh jmeter -n -t /path/to/your/arq_soft.jmx -l /path/to/results/file.csv -e -o /path/to/HTMLResults/
+
+Concrete example:
+
+sh jmeter -n -t /home/luciano/Documentos/jmeter-files/arq_soft.jmx -l /home/luciano/Documentos/jmeter-files/results-file.csv -e -o /home/luciano/Documentos/jmeter-files/HTMLResults/
