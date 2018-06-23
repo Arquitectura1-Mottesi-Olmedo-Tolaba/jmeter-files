@@ -35,10 +35,10 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="codigosDisponibles" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">/home/luciano/Documentos/codes.csv</stringProp>
+          <stringProp name="filename">/home/luciano/Documentos/jmeter-files/codes.csv</stringProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
@@ -46,7 +46,29 @@
           <stringProp name="variableNames"></stringProp>
         </CSVDataSet>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="specific survey GET" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="primerMateria" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">/home/luciano/Documentos/jmeter-files/Libro1.csv</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames"></stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="segundaMateria" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">/home/luciano/Documentos/jmeter-files/segundaMateria.csv</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames"></stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="obtenerEncuesta" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -56,7 +78,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/surveys/${code}</stringProp>
+          <stringProp name="HTTPSampler.path">/surveys/${codes}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -66,19 +88,37 @@
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="completarEncuestaPreInscripcion" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;code&quot;: &quot;${code}&quot;,&#xd;
+	&quot;code&quot;: &quot;${codes}&quot;,&#xd;
 	&quot;surveyMatches&quot;: [&#xd;
 		{&#xd;
 			&quot;subject&quot;: {&#xd;
-				&quot;id&quot;: 3,&#xd;
-				&quot;name&quot;: &quot;Elementos de programacion y logica&quot;&#xd;
+				&quot;id&quot;: 6,&#xd;
+				&quot;name&quot;: &quot;${primerMateria}&quot;&#xd;
+			},&#xd;
+			&quot;option&quot;: {&#xd;
+				&quot;description&quot;: &quot;Comision 1&quot;&#xd;
+			}&#xd;
+		},&#xd;
+		{&#xd;
+			&quot;subject&quot;: {&#xd;
+				&quot;id&quot;: 4,&#xd;
+				&quot;name&quot;: &quot;${segundaMateria}&quot;&#xd;
+			},&#xd;
+			&quot;option&quot;: {&#xd;
+				&quot;description&quot;: &quot;Comision 1&quot;&#xd;
+			}&#xd;
+		},&#xd;
+		{&#xd;
+			&quot;subject&quot;: {&#xd;
+				&quot;id&quot;: 5,&#xd;
+				&quot;name&quot;: &quot;Introduccion a la Programacion&quot;&#xd;
 			},&#xd;
 			&quot;option&quot;: {&#xd;
 				&quot;description&quot;: &quot;Comision 1&quot;&#xd;
