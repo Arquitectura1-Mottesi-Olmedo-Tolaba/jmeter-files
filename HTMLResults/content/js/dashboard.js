@@ -126,7 +126,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.03335318642048839, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.03225806451612903, 500, 1500, "completarEncuestaPreInscripcion"], "isController": false}, {"data": [0.03436426116838488, 500, 1500, "obtenerEncuesta"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.0, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)  ", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "completarEncuestaPreInscripcion"], "isController": false}, {"data": [0.0, 500, 1500, "obtenerEncuesta"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -140,7 +140,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1679, 0, 0.0, 17029.0, 18000.0, 19566.600000000002, 6.571377132077244, 147.80926754609553, 578, 20597], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "90th pct", "95th pct", "99th pct", "Throughput", "KB/sec", "Min", "Max"], "items": [{"data": ["completarEncuestaPreInscripcion", 806, 0, 0.0, 17271.8, 18467.4, 19746.6, 3.1696593599333034, 1.39291671090819, 578, 20597], "isController": false}, {"data": ["obtenerEncuesta", 873, 0, 0.0, 16862.4, 17338.399999999998, 18504.12, 3.4168029995851303, 146.4229800855277, 817, 20497], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 2232, 0, 0.0, 77392.2, 78319.35, 79323.35, 7.0241470790940355, 174.47359894209012, 2550, 94299], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "90th pct", "95th pct", "99th pct", "Throughput", "KB/sec", "Min", "Max"], "items": [{"data": ["completarEncuestaPreInscripcion", 948, 0, 0.0, 76605.5, 77797.45, 78791.22, 3.0128044187798144, 1.3239863168465982, 2550, 79542], "isController": false}, {"data": ["obtenerEncuesta", 1284, 0, 0.0, 77808.0, 78855.5, 79383.45, 4.044107225534568, 173.30543942165957, 2849, 94299], "isController": false}]}, function(index, item){
         switch(index){
             case 3:
                 item = item.toFixed(2) + '%';
