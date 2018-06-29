@@ -19,7 +19,7 @@
         <stringProp name="Steps">10</stringProp>
         <stringProp name="Hold">2</stringProp>
         <stringProp name="LogFilename">/home/luciano/Documentos/jmeter-files/log_files.csv</stringProp>
-        <stringProp name="Iterations">15000000</stringProp>
+        <stringProp name="Iterations">150000000</stringProp>
         <stringProp name="Unit">M</stringProp>
       </com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup>
       <hashTree>
