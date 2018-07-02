@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1530498668919,551620,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-42,text,false,,639,193,50,50,551560,0,6
+1530498644901,575641,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-39,text,false,,639,193,50,50,575587,0,1
+1530498620870,599668,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-28,text,false,,639,193,50,50,599593,0,2
+1530498620857,599682,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-21,text,false,,639,193,50,50,599594,0,2
+1530498620870,599672,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-27,text,false,,639,193,50,50,599608,0,1
+1530498668937,551604,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-49,text,false,,639,193,50,50,551503,0,2
+1530498620875,599665,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-30,text,false,,639,193,50,50,599612,0,1
+1530498668928,551613,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-46,text,false,,639,193,50,50,551551,0,3
+1530498668926,551615,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-45,text,false,,639,193,50,50,551507,0,3
+1530498668925,551617,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-44,text,false,,639,193,50,50,551538,0,3
+1530498644888,575653,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-32,text,false,,639,193,50,50,575521,0,2
+1530498620866,599677,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-26,text,false,,639,193,50,50,599604,0,2
+1530498668918,551627,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-41,text,false,,639,193,50,50,551570,0,6
+1530498668920,551625,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-43,text,false,,639,193,50,50,551568,0,5
+1530498644903,575642,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-40,text,false,,639,193,50,50,575544,0,2
+1530498620865,599680,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-25,text,false,,639,193,50,50,599574,0,3
+1530498644891,575649,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-34,text,false,,639,193,50,50,575512,0,1
+1530498668935,551611,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-48,text,false,,639,193,50,50,551509,0,2
+1530498644893,575654,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-36,text,false,,639,193,50,50,575565,0,4
+1530498644900,575647,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-38,text,false,,639,193,50,50,575570,0,1
+1530498644889,575652,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-33,text,false,,639,193,50,50,575599,0,2
+1530498668939,551610,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-50,text,false,,639,193,50,50,551358,0,1
+1530498644887,575662,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-31,text,false,,639,193,50,50,575546,0,1
+1530498644896,575653,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-37,text,false,,639,193,50,50,575583,0,2
+1530498620874,599674,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-29,text,false,,639,193,50,50,599609,0,1
+1530498644892,575658,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-35,text,false,,639,193,50,50,575596,0,2
+1530498620865,599684,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-24,text,false,,639,193,50,50,599561,0,2
+1530498620861,599686,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-22,text,false,,639,193,50,50,599626,0,2
+1530498668932,551616,obtenerEncuesta,400,Bad Request,bzm - Concurrency Thread Group 1-47,text,false,,639,193,50,50,551547,0,1
+1530498573160,649477,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-3,text,true,,43979,193,50,50,649402,0,190
+1530498573166,649484,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-7,text,true,,43964,193,50,50,649420,0,181
+1530498573168,649485,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-2,text,true,,43958,193,50,50,649392,0,182
+1530498573162,649607,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-8,text,true,,43961,193,50,50,649514,0,188
+1530498573168,649615,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-4,text,true,,43961,193,50,50,649438,0,182
+1530498573176,649613,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-1,text,true,,43958,193,50,50,649453,0,174
+1530498573168,649676,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-5,text,true,,43967,193,50,50,649533,0,182
+1530498573162,649769,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-6,text,true,,43964,193,50,50,649526,0,188
+1530498573169,649804,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-9,text,true,,43968,193,50,50,649673,0,181
+1530498573166,649887,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-10,text,true,,43967,193,50,50,649792,0,184
+1530498596826,630983,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-19,text,true,,43971,193,50,50,630717,0,4
+1530498596799,631021,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-11,text,true,,43965,193,50,50,630914,0,2
+1530498596808,632135,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-12,text,true,,43968,193,50,50,631923,0,2
+1530498596826,632230,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-17,text,true,,43968,193,50,50,632127,0,3
+1530498596821,632753,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-15,text,true,,43968,193,50,50,632714,0,1
+1530498596809,633140,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-14,text,true,,43971,193,50,50,632918,0,3
+1530498596805,633192,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-13,text,true,,43965,193,50,50,633005,0,2
+1530498596831,633734,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-18,text,true,,43959,193,50,50,633578,0,3
+1530498596834,633940,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-20,text,true,,43974,193,50,50,633918,0,2
+1530498596828,634297,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-16,text,true,,43962,193,50,50,634192,0,4
+1530498620862,612489,obtenerEncuesta,200,OK,bzm - Concurrency Thread Group 1-23,text,true,,43965,193,50,50,612444,0,1
+1530499227829,134804,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-11,text,false,,2172,0,50,50,0,0,0
+1530499228951,133686,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-12,text,false,,2172,0,49,49,0,0,1
+1530499220554,142087,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-33,text,false,,2172,0,48,48,0,0,29
+1530499220553,142092,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-21,text,false,,2172,0,47,47,0,0,43
+1530499220551,142095,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-32,text,false,,2172,0,47,46,0,0,48
+1530499220553,142093,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-46,text,false,,2172,0,47,46,0,0,44
+1530499220554,142102,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-36,text,false,,2172,0,44,44,0,0,47
+1530499220554,142105,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-48,text,false,,2172,0,43,43,0,0,49
+1530499220551,142108,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-45,text,false,,2172,0,42,42,0,0,54
+1530499220558,142103,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-27,text,false,,2172,0,41,41,0,0,48
+1530499220551,142112,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-42,text,false,,2172,0,40,40,0,0,58
+1530499220554,142110,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-39,text,false,,2172,0,39,39,0,0,56
+1530499220556,142111,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-50,text,false,,2172,0,38,38,0,0,56
+1530499220551,142119,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-44,text,false,,2172,0,37,37,0,0,63
+1530499220552,142121,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-26,text,false,,2172,0,36,36,0,0,63
+1530499220556,142120,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-31,text,false,,2172,0,35,35,0,0,60
+1530499220552,142126,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-41,text,false,,2172,0,34,34,0,0,65
+1530499220557,142124,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-29,text,false,,2172,0,33,33,0,0,62
+1530499220553,142129,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-40,text,false,,2172,0,33,33,0,0,67
+1530499220557,142127,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-35,text,false,,2172,0,31,31,0,0,65
+1530499220557,142131,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-24,text,false,,2172,0,30,30,0,0,65
+1530499220561,142127,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-47,text,false,,2172,0,30,30,0,0,62
+1530499222646,140049,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-3,text,false,,2172,0,28,28,0,0,1
+1530499229064,133635,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-17,text,false,,2172,0,27,27,0,0,1
+1530499230783,131918,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-20,text,false,,2172,0,26,26,0,0,0
+1530499229583,133123,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-15,text,false,,2172,0,25,25,0,0,1
+1530499233359,129348,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-23,text,false,,2172,0,24,24,0,0,1
+1530499231134,131579,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-16,text,false,,2172,0,23,23,0,0,0
+1530499230007,132709,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-13,text,false,,2172,0,22,22,0,0,2
+1530499229958,132761,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-14,text,false,,2172,0,21,21,0,0,0
+1530499230573,132148,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-18,text,false,,2172,0,20,20,0,0,1
+1530499222662,140059,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-2,text,false,,2172,0,19,19,0,0,2
+1530499220559,142163,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-37,text,false,,2172,0,18,18,0,0,34
+1530499222659,140064,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-7,text,false,,2172,0,17,17,0,0,2
+1530499222777,139948,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-8,text,false,,2172,0,16,16,0,0,1
+1530499222792,139934,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-4,text,false,,2172,0,15,15,0,0,0
+1530499222798,139929,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-1,text,false,,2172,0,14,14,0,0,1
+1530499222853,139885,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-5,text,false,,2172,0,13,13,0,0,0
+1530499220557,142183,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-49,text,false,,2172,0,12,12,0,0,42
+1530499222940,139805,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-6,text,false,,2172,0,11,11,0,0,1
+1530499222982,139763,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-9,text,false,,2172,0,11,11,0,0,1
+1530499220555,142197,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-30,text,false,,2172,0,9,9,0,0,35
+1530499220554,142199,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-38,text,false,,2172,0,8,8,0,0,37
+1530499220553,142201,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-34,text,false,,2172,0,8,7,0,0,40
+1530499227818,134939,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-19,text,false,,2172,0,6,6,0,0,1
+1530499223062,139696,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-10,text,false,,2172,0,5,5,0,0,3
+1530499220559,142201,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-22,text,false,,2172,0,4,4,0,0,25
+1530499220554,142207,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-28,text,false,,2172,0,3,3,0,0,30
+1530499220553,142211,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-25,text,false,,2172,0,2,2,0,0,32
+1530499220552,142215,completarEncuestaPreInscripcion,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: localhost:8080 failed to respond,bzm - Concurrency Thread Group 1-43,text,false,,2172,0,1,1,0,0,36
